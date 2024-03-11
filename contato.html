@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="img/icone.ico" type="image/x-icon">
+    <title>Papelaria Organize</title>
+    <link rel="stylesheet" href="PapelariaJS.js">
+    <script type="text/javascript" src="PapelariaJS.js"></script>
+</head>
+<body>
+    
+    
+    <header> <!--Início do Site-->
+
+        <div class="logo"> <!--Logo do Site-->
+            <div class="nome">Organize</div>
+            <div class="papelaria"> papelaria </div>
+        </div>
+
+
+
+        <nav> <!--Barra de Navegação-->
+            <div class="navegacao">
+                <a href="sobre.html"> SOBRE </a>
+                <a href="index.html"> HOME </a>
+                <a href="contato.html"> CONTATO </a>
+                <a href="login.html"> LOGIN </a>
+            </div>
+        </nav>
+
+        
+    </header>
+
+    <main> <!--Conteúdo Principal-->
+        <div class="conteudo">
+        <div class="divisor">
+            <div class="caderno"><img src="img/iconecontato.png" alt="" height="50px" width="50px"></div>
+            CONTATO
+        </div>
+
+        <div class="ajuda">Envie um formulário se precisar da nossa ajuda, responderemos o mais breve possível:</div>
+        <h1>FORMULÁRIO</h1>
+       
+        <form>
+            <label for="nome"> <p>Nome Completo:</p> </label>
+            <input type="text" id="nome" placeholder="Digite o seu nome e sobrenome..."> <br>
+            <label for="email"> <p>E-mail</p> </label>
+            <input type="text" id="email" placeholder="seuemail@gmail.com"> <br>
+            <label for="datanascimento"> <p>Data de Nascimento</p></label>
+            <input type="date" id="datanascimento"> <br>
+            <label for="assunto"> <p>Assunto</p> </label>
+            <input type="text" id="assunto" placeholder="Digite o assunto..."> <br>
+            <p> Comentário </p><textarea  id="comentario" placeholder="Deixe o seu Comentário"></textarea> <br>
+            <input type="submit" class="enviar" onclick="Enviar()" value="Enviar">
+    
+
+        </form>
+
+            <div class="mensagem">
+            </div>
+        
+    </main>
+
+    <footer> <!--Rodapé-->
+
+        <div class="rodape">
+            <p>© Todos os direitos reservados</p>
+        </div>
+
+    </footer>
+
+</body>
+</html>

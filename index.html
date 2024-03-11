@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="img/icone.ico" type="image/x-icon">
+    <title>Papelaria Organize</title>
+    <link rel="stylesheet" href="PapelariaJS.js">
+    <script type="text/javascript" src="PapelariaJS.js"></script>
+</head>
+
+<body>
+
+    <header> <!--Início do Site-->
+
+        <div class="logo"> <!--Logo do Site-->
+            <div class="nome">Organize</div>
+            <div class="papelaria"> papelaria </div>
+        </div>
+
+
+
+        <nav> <!--Barra de Navegação-->
+            <div class="navegacao">
+                <a href="sobre.html"> SOBRE </a>
+                <a href="#novidade"> NOVIDADES </a>
+                <a href="contato.html"> CONTATO </a>
+                <a href="login.html"> LOGIN </a>
+            </div>
+        </nav>
+
+    </header>
+
+
+    <main> <!--Conteúdo Principal-->
+
+        <div id="carrinhototal"> <img src="img/carrinho.png" width="40px" height="40px" class="carrinhototal">
+            <div id="contador">0</div>
+        </div>
+
+        <div class="conteudo">
+
+            <div class="divisor">
+                <div class="caderno"><img src="img/iconecaderno.png" alt="" height="50px" width="50px"></div>
+                CADERNO
+            </div>
+            <div class="container">
+
+
+                <div class="imagem">
+                    <div class="carrinho"> <img src="img/carrinho.png" width="20px" height="20px" class="botao-carrinho"  id="botao-carrinho" onclick="adicionarCarrinho()">
+                    </div>
+                    <img src="img/caderno0.jpg" alt="caderno0" width="150px" height="190px">
+                    <div class="informacao">
+                        <div class="cima">
+                            Caderno Inteligente Grande </div>
+                        <div class="baixo"> apenas R$99,90 </div>
+                    </div>
+                </div>
+
+                <div class="imagem">
+                    <div class="carrinho"> <img src="img/carrinho.png" width="20px" height="20px" class="botao-carrinho"  id="botao-carrinho" onclick="adicionarCarrinho()">
+                    </div>
+                    <img src="img/caderno1.png" alt="caderno1" width="150px" height="190px">
+                    <div class="informacao">
+                        <div class="cima"> Caderno Inteligente Grande </div>
+                        <div class="baixo"> apenas R$99,90 </div>
+                    </div>
+                </div>
+                <div class="imagem">
+                    <div class="carrinho"> <img src="img/carrinho.png" width="20px" height="20px" class="botao-carrinho"  id="botao-carrinho" onclick="adicionarCarrinho()">
+                    </div>
+                    <img src="img/caderno2.png" alt="caderno2" width="150px" height="190px">
+                    <div class="informacao">
+                        <div class="cima"> Caderno Inteligente Grande </div>
+                        <div class="baixo"> apenas R$99,90 </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="divisor">
+                <div class="estojo"><img src="img/iconeestojo.png" alt="" height="45px" width="45px"></div>
+                ESTOJO
+            </div>
+
+            <div class="container">
+                <div class="imagem">
+                    <div class="carrinho"> <img src="img/carrinho.png" width="20px" height="20px" class="botao-carrinho"  id="botao-carrinho" onclick="adicionarCarrinho()">
+
+                    </div>
+                    <img src="img/estojo0.png" alt="estojo0" width="150px" height="190px">
+                    <div class="informacao">
+                        <div class="cima"> Estojo happy </div>
+                        <div class="baixo"> apenas R$39,90 </div>
+                    </div>
+                </div>
+
+
+                <div class="imagem">
+                    <div class="carrinho"> <img src="img/carrinho.png" width="20px" height="20px" class="botao-carrinho"  id="botao-carrinho" onclick="adicionarCarrinho()">
+                    </div>
+                    <img src="img/estojo1.png" alt="estojo1" width="150px" height="190px">
+                    <div class="informacao">
+                        <div class="cima"> Estojo Preto </div>
+                        <div class="baixo"> apenas R$35,90 </div>
+                    </div>
+                </div>
+                <div class="imagem">
+                    <div class="carrinho"> <img src="img/carrinho.png" width="20px" height="20px" class="botao-carrinho"  id="botao-carrinho" onclick="adicionarCarrinho()">
+                    </div>
+                    <img src="img/estojo2.png" alt="estojo2" width="150px" height="190px">
+                    <div class="informacao">
+                        <div class="cima"> Estojo Dourado </div>
+                        <div class="baixo"> apenas R$42,90 </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="divisor">
+                <div class="caneta"><img src="img/iconecaneta.png" alt="" height="55px" width="60px"></div>
+                CANETA
+            </div>
+
+            <div class="container">
+                <div class="imagem">
+                    <div class="carrinho"> <img src="img/carrinho.png" width="20px" height="20px" class="botao-carrinho"  id="botao-carrinho" onclick="adicionarCarrinho()">      
+                </div>
+                    <img src="img/caneta0.png" alt="caneta0" width="150px" height="190px">
+                    <div class="informacao">
+                        <div class="cima"> Caneta Stabillo (Unidade) </div>
+                        <div class="baixo"> apenas R$9,90 </div>
+                    </div>
+                </div>
+
+
+                <div class="imagem">
+                    <div class="carrinho"> <img src="img/carrinho.png" width="20px" height="20px" class="botao-carrinho"  id="botao-carrinho" onclick="adicionarCarrinho()">
+                    </div>
+                    <img src="img/caneta1.png" alt="caneta1" width="150px" height="190px">
+                    <div class="informacao">
+                        <div class="cima"> Canetas Coloridas Bic </div>
+                        <div class="baixo"> apenas R$19,90 </div>
+                    </div>
+                </div>
+                <div class="imagem">
+                    <div class="carrinho"> <img src="img/carrinho.png" width="20px" height="20px" class="botao-carrinho"  id="botao-carrinho" onclick="adicionarCarrinho()">
+                    </div>
+                    <img src="img/caneta2.png" alt="caneta2" width="170px" height="190px">
+                    <div class="informacao">
+                        <div class="cima"> Canetas Coloridas Cis </div>
+                        <div class="baixo"> apenas R$31,90 </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="divisor">
+                <div class="mochila"><img src="img/iconemochila.png" alt="" height="55px" width="60px"></div>
+                MOCHILA
+            </div>
+
+            <div class="container">
+                <div class="imagem">
+                    <div class="carrinho"> <img src="img/carrinho.png" width="20px" height="20px" class="botao-carrinho"  id="botao-carrinho" onclick="adicionarCarrinho()">
+                    </div>
+                    <img src="img/mochila0.png" alt="mochila0" width="200px" height="190px">
+                    <div class="informacao">
+                        <div class="cima"> Mochila Dell Preta </div>
+                        <div class="baixo"> apenas R$209,90 </div>
+                    </div>
+                </div>
+
+
+                <div class="imagem">
+                    <div class="carrinho"> <img src="img/carrinho.png" width="20px" height="20px" class="botao-carrinho"  id="botao-carrinho" onclick="adicionarCarrinho()">
+                    </div>
+                    <img src="img/mochila1.png" alt="mochila1" width="150px" height="190px">
+                    <div class="informacao">
+                        <div class="cima"> Mochila Azul Ursinho </div>
+                        <div class="baixo"> apenas R$109,90 </div>
+                    </div>
+                </div>
+                <div class="imagem">
+                    <div class="carrinho"> <img src="img/carrinho.png" width="20px" height="20px" class="botao-carrinho"  id="botao-carrinho" onclick="adicionarCarrinho()">
+                    </div>
+                    <img src="img/mochila2.png" alt="mochila2" width="180px" height="190px">
+                    <div class="informacao">
+                        <div class="cima"> Mochila Kiplling Marrom </div>
+                        <div class="baixo"> apenas R$799,90 </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="divisor" id="novidade">
+                <div class="novidade"><img src="img/iconenovidade.png" alt="" height="50px" width="50px"></div>
+                NOVIDADES
+            </div>
+
+            <div class="container">
+                <div class="imagem">
+                    <div class="carrinho"> <img src="img/carrinho.png" width="20px" height="20px" class="botao-carrinho"  id="botao-carrinho" onclick="adicionarCarrinho()">
+                 </div>
+                    <img src="img/novidade0.png" alt="novidade0" width="200px" height="190px">
+                    <div class="informacao">
+                        <div class="cima"> Pasta Sanfonada 12 divisórias </div>
+                        <div class="baixo"> apenas R$39,90 </div>
+                    </div>
+                </div>
+
+
+                <div class="imagem">
+                    <div class="carrinho"> <img src="img/carrinho.png" width="20px" height="20px" class="botao-carrinho"  id="botao-carrinho" onclick="adicionarCarrinho()">
+                    </div>
+                    <img src="img/novidade1.png" alt="novidade1" width="190px" height="190px">
+                    <div class="informacao">
+                        <div class="cima"> Bloco de Notas Adesivas Transparente </div>
+                        <div class="baixo"> apenas R$9,90 </div>
+                    </div>
+                </div>
+                <div class="imagem">
+                    <div class="carrinho"> <img src="img/carrinho.png" width="20px" height="20px" class="botao-carrinho"  id="botao-carrinho" onclick="adicionarCarrinho()">
+                    </div>
+                    <img src="img/novidade2.png" alt="novidade2" width="150px" height="190px">
+                    <div class="informacao">
+                        <div class="cima"> Caneta Borracha </div>
+                        <div class="baixo"> apenas R$14,90 </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+    </main>
+
+
+        <footer> <!--Rodapé-->
+
+            <div class="rodape">
+                <p>© Todos os direitos reservados</p>
+            </div>
+
+        </footer>
+
+</body>
+
+</html>
